@@ -1,7 +1,7 @@
 <!-- default file list -->
 *Files to look at*:
 
-* [MainWindow.xaml](./CS/DXPivotGrid_SelectingPrintTemplate/MainWindow.xaml) (VB: [MainWindow.xaml.vb](./VB/DXPivotGrid_SelectingPrintTemplate/MainWindow.xaml.vb))
+* [MainWindow.xaml](./CS/DXPivotGrid_SelectingPrintTemplate/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/DXPivotGrid_SelectingPrintTemplate/MainWindow.xaml))
 * [MainWindow.xaml.cs](./CS/DXPivotGrid_SelectingPrintTemplate/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/DXPivotGrid_SelectingPrintTemplate/MainWindow.xaml.vb))
 <!-- default file list end -->
 # How to select print templates based on custom logic
