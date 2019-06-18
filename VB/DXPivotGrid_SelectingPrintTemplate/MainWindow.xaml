@@ -1,4 +1,4 @@
-<Window xmlns:dxpg="http://schemas.devexpress.com/winfx/2008/xaml/pivotgrid"
+﻿<Window xmlns:dxpg="http://schemas.devexpress.com/winfx/2008/xaml/pivotgrid"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:local="clr-namespace:DXPivotGrid_SelectingPrintTemplate"
         x:Class="DXPivotGrid_SelectingPrintTemplate.MainWindow"
@@ -17,12 +17,13 @@
                           VerticalContentAlignment="Center"
                           HorizontalContentAlignment="Right"
                           BorderThickness="{Binding Border, Mode=OneWay}"
-                          BorderBrush="#808080"   />
+                          BorderBrush="#808080"
+                           />
         </DataTemplate>
         <DataTemplate x:Key="HighlightedCellTemplate">
             <Border dxp:ExportSettings.TargetType="Panel" Padding="4,2"
                     dxp:ExportSettings.BorderThickness="{Binding Border, Mode=OneWay}" 
-                    dxp:ExportSettings.BorderColor="#808080">
+                    dxp:ExportSettings.BorderColor="#808080" >
                 <Grid>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*" />
