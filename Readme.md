@@ -12,4 +12,4 @@ This example demonstrates how to select print templates for the DXPivotGrid elem
 The logic for selecting the data cell print template is based on the ratio of the data cell value to the grand total value. If the ratio is between 0.2 and 0.8, the template selector applies a template that highlights the cell text and adds the warning sign to the cell.
 
 
-![screenshot](images\screenshot.png)
+![screenshot](images/screenshot.png)
